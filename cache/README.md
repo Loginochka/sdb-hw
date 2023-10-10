@@ -20,7 +20,7 @@
 
 ### Ответ 2
 
-[Ссылка на ответ 2](https://github.com/Loginochka/sdb-hw/cache/media/memcached_status.png)
+[Ссылка на ответ 2](https://github.com/Loginochka/sdb-hw/blob/main/cache/media/memcached_status.png)
 
 ----
 
@@ -31,7 +31,7 @@
 
 ### Ответ 3
 
-[Ссылка на ответ 3](https://github.com/Loginochka/sdb-hw/cache/media/memcache_data_stored.png)
+[Ссылка на ответ 3](https://github.com/Loginochka/sdb-hw/blob/main/cache/media/memcache_data_stored.png)
 
 ----
 
@@ -42,4 +42,4 @@
 
 ### Ответ 4
 
-[Ссылка на ответ 4](https://github.com/Loginochka/sdb-hw/cache/media/redis_data_stored.png)
+[Ссылка на ответ 4](https://github.com/Loginochka/sdb-hw/blob/main/cache/media/redis_data_stored.png)
