@@ -59,4 +59,4 @@ $ rabbitmqadmin get queue='hello'
 
 ### Ответ 3
 
-[Результат работы второго скрипта](https://github.com/Loginochka/sdb-hw/blob/main/rabbitmq/media/Rabbit_in_cluster.png
+[Результат работы второго скрипта](https://github.com/Loginochka/sdb-hw/blob/main/rabbitmq/media/Rabbit_in_cluster.png)
