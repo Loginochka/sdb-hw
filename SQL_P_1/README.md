@@ -36,7 +36,7 @@
 
 [Ответ 4](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_1/media/job_4.png)
 
-P.S Все запросы 
+## P.S Все запросы 
 
 ```SQL
 
