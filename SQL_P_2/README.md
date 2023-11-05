@@ -36,7 +36,7 @@
 
 ### Ответ 4
 
-[Ответ 4](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/job_1.png)
+[Ответ 4](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/job_4.png)
 
 ## P.S Все запросы
 
