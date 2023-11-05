@@ -10,7 +10,7 @@
 
 ### Ответ 1
 
-[Ответ 1]()https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/job_1.png
+[Ответ 1](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/job_1.png)
 
 ### Задание 2
 
