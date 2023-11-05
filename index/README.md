@@ -34,7 +34,7 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 ### Ответ 2 
 
-[Результат explain analyze](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/explain_analyze.png)
+[Результат explain analyze](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze.png)
 
 * Самое времязатратное действие - это временная таблица с удалением дубликатов (Temporary table with deduplication). 
 * Сортировка данных по столбцам c.customer_id и f.title выполняется в процессе выполнения запроса, что может также нагрузить бащу.
@@ -65,4 +65,4 @@ WHERE DATE(p.payment_date) = '2005-07-30';
 
 ```
 
-[Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/SQL_P_2/media/explain_analyze_optim.png)
+[Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze_optim.png)
