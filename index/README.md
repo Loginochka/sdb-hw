@@ -64,5 +64,27 @@ JOIN film f ON i.film_id = f.film_id
 WHERE DATE(p.payment_date) = '2005-07-30';
 
 ```
+## Rework
+
+Запрос после реворка
+
+```SQL
+
+SELECT DISTINCT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount) OVER (PARTITION BY c.customer_id, f.title)
+FROM payment p
+JOIN rental r ON p.payment_date = r.rental_date
+JOIN customer c ON r.customer_id = c.customer_id
+JOIN inventory i ON r.inventory_id = i.inventory_id
+JOIN film f ON i.film_id = f.film_id
+WHERE DATE(p.payment_date) = '2005-07-30';
+
+```
+[Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze_opti_after_rework.png)
+
+Удалил ранне созданные индексы 
+
+DROP INDEX idx_customer_id ON rental;
+DROP INDEX idx_inventory_id ON rental;
+DROP INDEX idx_film_id ON rental;
 
 [Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze_optim.png)
