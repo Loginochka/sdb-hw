@@ -76,15 +76,15 @@ JOIN rental r ON p.payment_date = r.rental_date
 JOIN customer c ON r.customer_id = c.customer_id
 JOIN inventory i ON r.inventory_id = i.inventory_id
 JOIN film f ON i.film_id = f.film_id
-WHERE DATE(p.payment_date) = '2005-07-30';
+WHERE p.payment_date >= '2005-07-30' AND p.payment_date < DATE_ADD('2005-07-30', INTERVAL 1 DAY);
 
 ```
 [Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze_opti_after_rework.png)
 
 Удалил ранне созданные индексы 
-
+```SQL
 DROP INDEX idx_customer_id ON rental;
 DROP INDEX idx_inventory_id ON rental;
 DROP INDEX idx_film_id ON rental;
-
+```
 [Результат explain analyze после оптимизации](https://github.com/Loginochka/sdb-hw/blob/main/index/media/explain_analyze_optim.png)
