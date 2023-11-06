@@ -42,3 +42,23 @@
 [Ссылка на состояние slave после настройки](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/slave_status.png)
 
 [Результат репликации](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/peplication_example.png)
+
+
+CHANGE MASTER TO
+MASTER_HOST = 'master_2',
+MASTER_USER = 'replica',
+MASTER_PASSWORD = '114563',
+MASTER_LOG_FILE= 'mysql-bin.000003',
+MASTER_LOG_POS = 157;
+
+CHANGE MASTER TO
+MASTER_HOST = 'master_1',
+MASTER_USER = 'replica',
+MASTER_PASSWORD = '114563',
+MASTER_LOG_FILE= 'mysql-bin.000003',
+MASTER_LOG_POS = 157;
+
+
+create user 'replica'@'%' identified with mysql_native_password by '114563';
+grant replication slave on *.* to 'replica'@'%';
+show grants for 'replica'@'%';
