@@ -29,4 +29,16 @@
 
 ### Ответ 2
 
+[Ссылка на docker-copmose](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/mysql-master.yml)
 
+[Ссылка на конфиг slave](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/slave/my.cnf)
+
+[Ссылка на конфиг master](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/master/my.cnf)
+
+[Ссылка на состояние master после деплоя](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/master_status_after_deploy.png)
+
+[Созданные пользователь для репликации](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/user_for_replication.png)
+
+[Ссылка на состояние slave после настройки](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/slave_status.png)
+
+[Результат репликации](https://github.com/Loginochka/sdb-hw/blob/main/Replication_%26_scale/media/peplication_example.png)
