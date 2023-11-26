@@ -15,7 +15,7 @@
 
 ### Ответ 1
 
-[Списко сетевых служб](https://github.com/Loginochka/sdb-hw/blob/main/infsec/media/service.png)
+[Списко сетевых служб](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/service.png)
 
 Обнаруженные уязвимости
 
@@ -50,10 +50,10 @@
 
 2. 
 
-[SYN сканирование](https://github.com/Loginochka/sdb-hw/blob/main/infsec/media/syn.png)
+[SYN сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/syn.png)
 
-[FIN сканирование](https://github.com/Loginochka/sdb-hw/blob/main/infsec/media/fin.png)
+[FIN сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/fin.png)
 
-[Xmas сканирование](https://github.com/Loginochka/sdb-hw/blob/main/infsec/media/xmas.png)
+[Xmas сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/xmas.png)
 
-[UDP сканирование](https://github.com/Loginochka/sdb-hw/blob/main/infsec/media/udp.png)
+[UDP сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/udp.pngg)
