@@ -56,4 +56,4 @@
 
 [Xmas сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/xmas.png)
 
-[UDP сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/udp.pngg)
+[UDP сканирование](https://github.com/Loginochka/sdb-hw/blob/main/Infsec/media/udp.png)
