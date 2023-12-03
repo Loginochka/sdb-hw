@@ -28,7 +28,7 @@
 
 [Подготовка диска](https://github.com/Loginochka/sdb-hw/blob/main/host_sec/media/prepare_dislk.png)
 
-[Монтирование и форматирование раздела](https://github.com/Loginochka/sdb-hw/blob/main/host_sec/media/mount_and_format_disk.png)
+[Маппинг и форматирование раздела](https://github.com/Loginochka/sdb-hw/blob/main/host_sec/media/mount_and_format_disk.png)
 
 [Монтирование "открытого" раздела](https://github.com/Loginochka/sdb-hw/blob/main/host_sec/media/mount_secret_part.png)
 
